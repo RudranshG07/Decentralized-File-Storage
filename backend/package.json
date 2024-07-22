@@ -1,0 +1,14 @@
+{
+  "name": "decentralized-file-storage-mock-backend",
+  "version": "1.0.0",
+  "description": "Mock backend server for testing the decentralized file storage frontend",
+  "main": "mock-server.js",
+  "scripts": {
+    "start": "node mock-server.js",
+    "dev": "node mock-server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
